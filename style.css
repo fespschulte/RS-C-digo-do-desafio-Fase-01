@@ -6,20 +6,24 @@ body {
 
 #hero {
     width: 592px;
-    height: 579px;
-    margin-bottom: 0 auto 72px;
+    margin: 0 auto 72px;
+}
+
+#hero img{
+  margin-bottom: 72px;
 }
 
 h1 {
+  color: black;
   font-family: "Inter", sans-serif;
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
+  margin-bottom: 32px;
 }
 
 h1 span {
   font-weight: bold;
-  margin-bottom: 32px;
 }
 
 span, a {
@@ -39,14 +43,12 @@ p, #footer {
 .line {
     width: 568px;
     height: 0;
-
-    margin: 0 8px;
-
+    margin: 0 auto 8px;
     border: 1px solid #ECEFF2;
 }
 
 #balls {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
 }
